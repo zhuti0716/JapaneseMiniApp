@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/deepseek.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/deepseek", "dest": "/api/deepseek.js" }
+  ]
+}
